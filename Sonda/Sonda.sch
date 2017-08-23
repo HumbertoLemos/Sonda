@@ -640,23 +640,23 @@ $EndComp
 $Comp
 L C C12
 U 1 1 596FA1B8
-P 2300 8100
-F 0 "C12" H 2325 8200 50  0000 L CNN
-F 1 "0.33uF" H 2325 8000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2338 7950 50  0001 C CNN
-F 3 "" H 2300 8100 50  0001 C CNN
-	1    2300 8100
+P 2500 8100
+F 0 "C12" H 2525 8200 50  0000 L CNN
+F 1 "0.33uF" H 2525 8000 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2538 7950 50  0001 C CNN
+F 3 "" H 2500 8100 50  0001 C CNN
+	1    2500 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C13
 U 1 1 596FA27B
-P 3450 8100
-F 0 "C13" H 3475 8200 50  0000 L CNN
-F 1 "0.1uF" H 3475 8000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3488 7950 50  0001 C CNN
-F 3 "" H 3450 8100 50  0001 C CNN
-	1    3450 8100
+P 3400 8100
+F 0 "C13" H 3425 8200 50  0000 L CNN
+F 1 "0.1uF" H 3425 8000 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3438 7950 50  0001 C CNN
+F 3 "" H 3400 8100 50  0001 C CNN
+	1    3400 8100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1312,8 +1312,6 @@ Wire Wire Line
 Wire Wire Line
 	900  7250 900  7750
 Wire Wire Line
-	2300 7250 2300 7950
-Wire Wire Line
 	2300 7750 2550 7750
 Connection ~ 1900 7250
 Wire Wire Line
@@ -1329,13 +1327,9 @@ Wire Wire Line
 	3350 7750 3700 7750
 Wire Wire Line
 	4750 7750 5800 7750
-Connection ~ 2300 7750
 Wire Wire Line
 	2300 8250 2300 8400
 Connection ~ 2300 8400
-Wire Wire Line
-	3450 7750 3450 7950
-Connection ~ 3450 7750
 Wire Wire Line
 	3450 8250 3450 8400
 Connection ~ 3450 8400
@@ -1482,4 +1476,16 @@ Wire Wire Line
 Wire Wire Line
 	5400 8750 5400 8350
 Connection ~ 5050 8750
+Wire Wire Line
+	2300 7250 2300 7750
+Wire Wire Line
+	2500 7950 2500 7750
+Connection ~ 2500 7750
+Wire Wire Line
+	2300 8250 2500 8250
+Wire Wire Line
+	3450 8250 3400 8250
+Wire Wire Line
+	3400 7950 3400 7750
+Connection ~ 3400 7750
 $EndSCHEMATC
