@@ -571,7 +571,6 @@ Text Label 15550 1750 1    60   ~ 0
 GND
 NoConn ~ 1100 1300
 NoConn ~ 1100 1600
-NoConn ~ 1100 3200
 NoConn ~ 3000 1000
 NoConn ~ 3000 1100
 NoConn ~ 3000 1200
@@ -1488,4 +1487,8 @@ Wire Wire Line
 Wire Wire Line
 	3400 7950 3400 7750
 Connection ~ 3400 7750
+Wire Wire Line
+	1100 3200 900  3200
+Text Label 900  3200 0    60   ~ 0
+GND
 $EndSCHEMATC
